@@ -154,6 +154,39 @@ nav .fa-bars{
 .destination-img-container img{
     padding-right: 23px;
 }
+/* choose card section */
+.choose-cards-section {
+    margin-top: 100px;
+}
+.choose-cards-detail{
+    text-align: center;
+}
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+.card{
+    margin-top: 48px;
+    border-radius: 16px;
+    padding: 32px;
+}
+.hotels-card{
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.service-card {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.guarantee-card{
+    margin-left: 298px;
+    align-items: center;
+    width: 44%;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    margin-top: 24px;
+}
 
 
 
@@ -210,5 +243,17 @@ nav .fa-bars{
         height: 176px;
         margin-bottom: 16px;
         padding-right: 0px;
+    }
+    .cards-container{
+        grid-template-columns: 1fr;
+        gap: 0px;
+    }
+    .card{
+        margin-top: 16px;
+    }
+    .guarantee-card{
+        margin-left: 0px;
+        width: 80%;
+        margin-top: 16px;
     }
 }
