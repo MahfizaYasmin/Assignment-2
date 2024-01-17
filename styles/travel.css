@@ -69,7 +69,7 @@ nav .fa-bars{
 }
 /* banner styles */
 .banner{
-    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
@@ -187,7 +187,110 @@ nav .fa-bars{
     background: rgba(233, 68, 68, 0.05);
     margin-top: 24px;
 }
-
+/* Deals & Discounts section */
+.discounts-section{
+    margin-top: 100px;
+}
+.discounts-title{
+    text-align: center;
+    margin-bottom: 48px;
+}
+.discounts-banner {
+    background-image: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.discounts-banner2 {
+    margin: 24px 0px;
+    background-image: url('../Images/Group\ 40.png');
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.discounts-detail{
+    width: 560px;
+    height: 300px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px 77px 50px 50px;
+    margin-right: 50px;
+}
+.discounts-detail2{
+    width: 560px;
+    height: 300px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    padding: 50px 77px 50px 50px;
+    margin-left: 50px;
+}
+.discounts-icon{
+    display: flex;
+    gap: 24px;
+}
+.discounts-icon img{
+    margin-right: 8px;
+}
+.discount-price{
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+#packages-btn{
+    margin-top: 48px;
+    margin-left: 480px;
+}
+/* place styles */
+.place-section{
+    display: flex;
+    margin-top: 100px;
+}
+.place-content{
+    margin-right: 28px;
+}
+.place-video-content{
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+.place-video-content h3{
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 100px;
+    z-index: 1;
+}
+.video-container{
+    position: absolute;
+}
+.video-container video{
+    border-radius: 16px;
+}
+.place-content .description{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+.place-content li p{
+    color: #131318;
+    font-size: 1rem;
+    font-weight: 700;
+    gap: 16px;
+}
+.place-content .btn-section{
+    margin-top: 30px;
+}
 
 
 
